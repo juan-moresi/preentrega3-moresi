@@ -115,10 +115,7 @@ section p {
 @media (max-width: 600px) {
   .video-pres {
     width: auto;
-  }
-  .pres-flex {
-    padding: 5px;
-    display: flex;
+  
   }
   .container {
     padding: 5px;
