@@ -1,0 +1,59 @@
+@import "../utilidades/variables";
+
+
+
+/*estilos index y artistas*/
+
+section{
+    text-align: center;
+    margin-top: 7rem;
+    h1{
+        background-color: $color-style;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+}
+
+section{
+    h2{
+        background-color: $color-style;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+    }
+}
+
+/* artistas destacados */
+.img-dest{
+    width: 200px;
+}
+
+.destacados-art{
+    background-color: $color-style;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+section{
+    p{
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .video-pres{
+        width: auto;
+    }
+    .pres-flex{
+        padding: 5px;
+        display: flex;
+    }
+    
+    .container{
+        padding: 5px;
+        display: flex;
+    }
+    
+    .box{
+        margin: 15px;
+    }    
+}
