@@ -86,14 +86,30 @@ section h2 {
   width: 200px;
 }
 
+.img-dest:hover {
+  opacity: 0.5;
+}
+
 .destacados-art {
   background-color: coral;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+.destacados p {
+  font-size: 25px;
+}
+
 section p {
   color: black;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nosotros {
+  font-size: 35px;
+}
+
+.destacados .bio-text {
+  font-size: 20px;
 }
 
 @media (max-width: 600px) {
@@ -111,7 +127,21 @@ section p {
   .box {
     margin: 15px;
   }
+  .nosotros {
+    font-size: 20px;
+  }
+  .destacados .bio-text {
+    font-size: 15px;
+  }
 }
+.form-container {
+  padding: 15px;
+  border: 2px solid #ccc;
+  background-color: #FCE7C8;
+  align-items: center;
+  text-align: center;
+}
+
 /*estilos media y tour*/
 .carousel-item {
   text-align: center;
@@ -124,6 +154,31 @@ main {
 main h1 {
   background-color: coral;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.box-calendario {
+  margin: 15px;
+  text-align: center;
+}
+
+/*estilos footer*/
+footer {
+  margin-top: 100px;
+  background-color: #FADA7A;
+}
+footer div div ul {
+  display: flex;
+}
+footer div div ul li {
+  list-style: none;
+  text-decoration: none;
+}
+footer div div ul li a img:hover {
+  opacity: 0.5;
+}
+
+.copy {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

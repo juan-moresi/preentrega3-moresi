@@ -25,9 +25,19 @@ section{
     width: 200px;
 }
 
+.img-dest:hover{
+    opacity: 0.5;
+}
+
 .destacados-art{
     background-color: $color-style;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.destacados{
+    p{
+        font-size: 25px;
+    }
 }
 
 section{
@@ -37,6 +47,17 @@ section{
     }
 }
 
+
+
+.nosotros{
+    font-size: 35px;
+}
+
+.destacados{
+    .bio-text{
+        font-size: 20px;
+    }
+}
 
 
 @media (max-width: 600px) {
@@ -55,5 +76,23 @@ section{
     
     .box{
         margin: 15px;
+    }
+    .nosotros{
+        font-size: 20px;
     }    
+
+    .destacados{
+        .bio-text{
+            font-size: 15px;
+        }
+    }
+}
+
+
+.form-container {
+    padding: 15px;
+    border: 2px solid #ccc;
+    background-color: $color-principal;
+    align-items: center;
+    text-align: center;
 }
