@@ -115,7 +115,6 @@ section p {
 @media (max-width: 600px) {
   .video-pres {
     width: auto;
-  
   }
   .container {
     padding: 5px;
@@ -125,7 +124,7 @@ section p {
     margin: 15px;
   }
   .nosotros {
-    font-size: 20px;
+    font-size: 14px;
   }
   .destacados .bio-text {
     font-size: 15px;
